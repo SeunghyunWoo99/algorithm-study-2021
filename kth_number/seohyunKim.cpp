@@ -8,15 +8,13 @@ using namespace std;
 vector<int> solution(vector<int> array, vector<vector<int>> commands) {
     vector<int> answer;
     for (int i = 0; i < commands.size(); i++) {
-        vector<int> sorted_array(array);
-        int start_index = commands[i][0] - 1;
-        int end_index = commands[i][1] - 1;
-        int k = commands[i][2];
+        vector<int> sort_array;
 
-        if (end_index + 1 > array.size()) end_index = array.size() - 2;
-        sort(&sorted_array[start_index], &sorted_array[end_index + 1]);
+        for (int j = commands[i][0] - 1; j < commands[i][1]; j++)
+            sort_array.push_back(array[j]);
 
-        answer.push_back(sorted_array[start_index + k - 1]);
+        sort(sort_array.begin(), sort_array.end());
+        answer.push_back(sorted_array[commands[i][2] - 1]);
     }
 
     return answer;
