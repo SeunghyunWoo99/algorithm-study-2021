@@ -13,8 +13,7 @@ vector<int> solution(vector<int> array, vector<vector<int>> commands) {
         int end_index = commands[i][1] - 1;
         int k = commands[i][2];
 
-        if (end_index + 1 >= array.size()) end_index = array.size() - 2;
-
+        if (end_index + 1 > array.size()) end_index = array.size() - 2;
         sort(&sorted_array[start_index], &sorted_array[end_index + 1]);
 
         answer.push_back(sorted_array[start_index + k - 1]);
