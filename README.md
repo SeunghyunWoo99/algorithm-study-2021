@@ -11,19 +11,6 @@
   - 우승현
   - 박채은
 
-### 일정
-
-정해야함
-
-| 주차 | 목표 |
-| ------ | ------ |
-| 1 | -- |
-| 2 | -- |
-|3 | -- |
-| 4 | -- |
-| 5 | -- |
-| 6 | -- |
-
 
 ### Todos
 
@@ -31,13 +18,11 @@
  - 사이트 정하기
  - 목표 정하기
 
-화이팅!
+
 ----
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-
    [dill]: <https://github.com/joemccann/dillinger>
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [john gruber]: <http://daringfireball.net>
